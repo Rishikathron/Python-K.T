@@ -1,0 +1,85 @@
+
+number_var = 1 #numeric
+string_var = "string" #string
+boolan_var = True or False #boolean
+float_var = 9.0 #float
+complex_var = 2j #complex
+
+
+
+#List is a collection which is ordered and changeable. Allows duplicate members.
+
+#list and its properties 
+list_declaration = [] #empty list
+list_var1 = [1,2,3,4]
+list_var2 = [1,"string",True,4.0,[5,6,"multiple_data_types",8]]
+print(type(list_declaration))
+
+
+#Dictionary is a collection which is ordered** and changeable. No duplicate members.
+#dictionaries and its properties
+
+dict_declaration = {} #empty dictionary
+
+#keys and values can be of any datatypes but keys has to be hashable 
+dict_var = {"Key" : "value"} 
+dic_var1 = {1,12}
+dic_var2 = {1:"student_name"}
+dic_var3 = {1 : [2,"sriram","sriram@gmail.com"]}
+#nested dictionary
+dict_var4 = {
+                1 : {
+                    1.1 : "sriram",
+                    1.2 : "Tamil"
+                },
+                2 : {
+                    2.1 : [1,2,"other types"]
+                }
+            } 
+#dict will be in the concept of hash storage
+print(dic_var2)
+print(type(dict_declaration))
+
+'''
+dict1 = {[1,2,3] : "sanday"}
+print(dict1 , type(dict))
+'''
+
+
+#Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+#tuples
+
+tuples_declaration = ()
+#Tuples are used to store multiple items in a single variable.
+tuple_var1 = ("apple", "banana", "cherry")
+tuple_var2 = (1, 2, "cherry")
+tuple_var3 = ("apple", "banana", "cherry","apple") #duplicates are allowed
+tuple_var4 = ("abc", 34.2, True, 40, "male") #multiple data types are allowed
+
+tuple_var5 = ("apple",) # tuples should have multiple values
+print(type(tuple_var4))
+
+#NOT a tuple
+non_tuple = ("apple")
+print(type(non_tuple),non_tuple)
+
+#set
+# Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+temp_declaration = {} # a dict
+temp1_declation = {1,2,3} # set (non key value pair is set with "{}")
+set_declaration = set() #using constructor to change other types to set
+temp = [1,2,3,4]
+
+set_var1 = set(temp)
+print(set_var1)
+
+set_var2 = set([1,2,2,3]) #set does not allow duplicates
+print(set_var2)
+
+
+
+
+
+
+
