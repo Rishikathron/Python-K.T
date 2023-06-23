@@ -1,0 +1,79 @@
+#syntax 
+
+# for _item_ in _itemCollections_:
+#       --- conditions or algorithms or block of code-------
+
+
+#loops with list
+thislist = ["myd", "iemp", "powerbi"]
+for x in thislist:
+  #print(x)
+  pass
+
+range_var = range(5) 
+#print(range_var)
+range_var1 = range(2,7)
+#print(range_var1)
+
+thislist = ["myd", "iemp", "powerbi"]
+for i in range(len(thislist)):
+  #print(thislist[i])
+  pass
+
+#while loop
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  #print(thislist[i])
+  i = i + 1
+
+
+#short hand
+thislist = ["apple", "banana", "cherry"]
+#[print(x) for x in thislist]
+
+#---------list Comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+#print(newlist)
+
+for x in fruits:
+    if x == "apple":
+        print(x)
+        pass
+
+#similar short hand for above code
+newlist = [x for x in fruits if x != "apple"]
+#print(newlist)
+
+#-----------sorting--------------
+_1list = [2,4,3,1,5,6]
+_1list.sort()
+print(_1list)
+
+_2list  =[2,4,3,5,6,1]
+print(sorted(_2list))
+
+_1list = [2,4,3,1,5,6]
+_1list.sort(reverse=True)
+print(_1list)
+
+_1list.reverse()
+print(_1list)
+#---------copying the list------------
+thislist_1 = ["apple", "banana", "cherry"]
+mylist = thislist_1.copy()
+print(mylist)
+
+thislist_2 = ["apple", "banana", "cherry","mango","plums"]
+mylist = list(thislist_2)
+print(mylist)
+
+thislist_3 = thislist_2[:]
+print(thislist_3)
+

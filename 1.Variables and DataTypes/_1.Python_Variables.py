@@ -18,7 +18,9 @@ myvar2 = "John"
 x = "sriram"
 y = "tamil"
 z = "Python"
+
     #or
+    
 x,y,z = "Sriram","Tamil", "Python"
 
 #assign same value to multiple variables
@@ -28,7 +30,7 @@ a = b = c = "Sriram"
 
 #syntax:
 print('''variables or values''')
-
+print(x)
 print(x,y,z) #o/p Sriram Sriram Sriram
 print(a+b+c) #o/p SriramSriramSriram
 

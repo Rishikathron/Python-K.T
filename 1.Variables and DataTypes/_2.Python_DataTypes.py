@@ -21,8 +21,8 @@ complex_var = 2j                     #complex
 
 #sequence datatypes
 var_list = ["apple", "banana", "cherry"]    #list
-var_tuple = ("apple", "banana", "cherry")	 #tuple	
-var_range = range(6)	#range	
+var_tuple = ("apple", "banana", "cherry")	#tuple	
+var_range = range(6)	                    #range	
 
 #mapping
 x = {"name" : "John", "age" : 36}	    #dict	
