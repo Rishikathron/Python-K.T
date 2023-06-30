@@ -18,24 +18,43 @@ for x in fruits:
 #will exit the loop if element matches with banana
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
-  print(x)
+  #print(x)
   if x == "banana":
     break
 
 #Using the range() function:
 for x in range(6):
-  print(x)
+  #print(x)
+  pass
 
 for x in range(2, 6):
-  print(x)
+  #print(x)
+    pass
 
+for x in range(2, 30, 3):
+  #print(x)
+  pass
+
+for x in range(6): #else without an if 
+  print(x)
+else:
+  print("Finally finished!")
+
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
 
 #nested for loops
 colors = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
-
 for x in colors:
   for y in fruits:
     print(x, y)
+
+#The pass Statement
+for x in [0, 1, 2]:
+  pass
 
 

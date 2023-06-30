@@ -47,9 +47,26 @@ x = frozenset(("apple", "banana", "cherry"))
 x = bool(5)		
 
 
+#python keywords
+'''
+False	    def	    if	        raise
+None	    del	    import	    return
+True	    elif	in	        try
+and	        else	is	        while
+as	        except	lambda	    with
+assert	    finally	nonlocal	yield
+break	    for	    not	
+class	    from	or	
+continue	global	pass
+'''
 
+a = "apple"
+b = "banana"
+a,b = b,a
 
-
+print(type(a))
+print(type(1))
+print(type({}))
 
 
 

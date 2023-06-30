@@ -18,7 +18,6 @@ non_tuple = ("apple")
 thistuple = tuple(("apple", "banana", "cherry","orange", "kiwi", "melon", "mango")) # note the double round-brackets
 # print(thistuple)
 # print(type(mytuple))
-
 # print(thistuple[1])
 # print(thistuple[-1])
 # print(thistuple[2:5])

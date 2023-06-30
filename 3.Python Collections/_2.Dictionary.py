@@ -39,7 +39,6 @@ print(thisdict.get("model"))
 #keys dict
 print(thisdict.keys())
 
-
 car = {
 "brand": "Ford",
 "model": "Mustang",
