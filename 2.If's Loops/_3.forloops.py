@@ -1,8 +1,50 @@
+# for _item_ in _itemCollections_:
+#       --- conditions or algorithms or block of code-------
+
 #basic for loops
+for i in "PythonPrgramming":
+  print(i)
+  #print(i,end="")
+  
+
+
+
+#Using the range() function:
+for x in range(6):
+  #print(x)
+  pass
+
+for x in range(2, 6):
+  #print(x)
+    pass
+
+for x in range(2, 30, 3):
+  #print(x)
+  pass
+
+for x in range(6): #else without an if 
+  # print(x)
+  pass
+else:
+  # print("Finally finished!")
+  pass
+
+for x in range(6):
+  if x == 3: break
+  #print(x)
+else:
+  #print("Finally finished!")
+  pass
+
+#The pass Statement
+for x in [0, 1, 2]:
+  pass
+
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   #print(x)
    pass
+
 for x in "banana":
   #print(x)
   pass
@@ -22,39 +64,15 @@ for x in fruits:
   if x == "banana":
     break
 
-#Using the range() function:
-for x in range(6):
-  #print(x)
-  pass
-
-for x in range(2, 6):
-  #print(x)
-    pass
-
-for x in range(2, 30, 3):
-  #print(x)
-  pass
-
-for x in range(6): #else without an if 
-  print(x)
-else:
-  print("Finally finished!")
-
-for x in range(6):
-  if x == 3: break
-  print(x)
-else:
-  print("Finally finished!")
-
 #nested for loops
 colors = ["red", "big", "tasty"]
 fruits = ["apple", "banana", "cherry"]
 for x in colors:
   for y in fruits:
-    print(x, y)
+    #print(x, y)
+    pass
 
-#The pass Statement
-for x in [0, 1, 2]:
-  pass
+
+
 
 

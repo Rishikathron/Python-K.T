@@ -33,6 +33,16 @@ x = frozenset({"apple", "banana", "cherry"})	#frozenset (immutable ) # an object
 
 x = None	#NoneType
 
+x=5
+y=x
+print(id(x),y)
+
+x= 'Geeks'
+print(x,y)
+
+y='Computer'
+print(x,y)
+
 #-----to set a specified data type using constructor
 x = str("Hello World")	
 x = int(20)	

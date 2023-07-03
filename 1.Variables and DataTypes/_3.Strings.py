@@ -154,8 +154,22 @@ print(txt)
 #and more...
 
 # write a program to reverse a string
+
+print(s[::-1])
+temp = reversed(s)
+print(type(reversed(s)))
+print(''.join(temp))
+
+tcast = list(s)
+tcast.reverse()
+print(''.join(tcast))
+
 # write a program to find whether a string is palindrome or not - madam,mom,noon,level
+
 # write a program to print letters at odd/even index.
+
+
+
 
 
 
